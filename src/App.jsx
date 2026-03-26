@@ -620,7 +620,7 @@ const css = `
 
 const SERVICES = [
   { icon: <SparkleIcon />, name: "Skin & Face Care", items: ["Facial", "Korean Facial", "Bleach", "Wax", "Threading", "Glow Treatment"] },
-  { icon: <GemIcon />, name: "Advanced Treatments", items: ["Ultra Facial", "RF Frequency Treatment", "Mole Removal Treatment", "Body Polishing"] },
+  { icon: <GemIcon />, name: "Advanced Treatments", items: ["Hydra Facial", "Ultra Facial", "RF Frequency Treatment", "Mole Removal Treatment", "Body Polishing"] },
   { icon: <ScissorsIcon />, name: "Hair Services", items: ["Hair Colour", "Hair Cut", "Hair Spa"] },
   { icon: <NailIcon />, name: "Nail Care", items: ["Manicure", "Pedicure", "Nail Art", "Acrylic Nails", "Gel Nails", "Nail Extension", "Bridal Nails"] },
   { icon: <BrushIcon />, name: "Makeup", items: ["Bridal Makeup", "Party Makeup", "Saree Draping", "Hairstyle", "All Makeup Orders Accepted"] },
@@ -864,7 +864,7 @@ export default function App() {
         <div className="section-inner" style={{ paddingTop: 0 }}>
           <div className="map-wrapper">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.5!2d73.0503!3d19.2354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTnCsDE0JzA3LjQiTiA3M8KwMDMnMDEuMSJF!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin&q=Dattkrupa+Building%2C+Dahisar+Mori+Pimpri+Gaon%2C+Thane%2C+Maharashtra+400612"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.5!2d73.0503!3d19.2354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b9260e000001%3A0x1!2zUi5NLiBCZWF1dHkgUGFybG91cg!5e0!3m2!1sen!2sin!4v1!5m2!1sen!2sin&q=Dattkrupa+Building+Dahisar+Mori+Pimpri+Gaon+Thane+400612"
               allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"
               title="R.M. Beauty Parlour Location"
             />
@@ -873,7 +873,7 @@ export default function App() {
               <div><strong>R.M. Beauty Parlour</strong><small>Dattkrupa Bldg, Dahisar Mori, Thane 400612</small></div>
             </div>
           </div>
-          <a href="https://www.google.com/maps/dir/?api=1&destination=Dattkrupa+Building+Dahisar+Mori+Pimpri+Gaon+Thane+Maharashtra+400612" target="_blank" rel="noreferrer" className="map-dir-btn">
+          <a href="https://maps.app.goo.gl/QYjQTH1z3rrUbujbA" target="_blank" rel="noreferrer" className="map-dir-btn">
             <NavigationIcon /> Get Directions on Google Maps
           </a>
         </div>
